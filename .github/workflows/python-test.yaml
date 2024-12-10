@@ -1,0 +1,26 @@
+name: Python Tests
+
+on: [push, pull_request]  # プッシュまたはプルリクエスト時に実行
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Ubuntu環境で実行
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # コードをチェックアウト
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'  # 使用するPythonのバージョン
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # 依存関係をインストール
+
+    - name: Run tests
+      run: |
+        pytest  # pytestを実行
+        

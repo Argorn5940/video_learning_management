@@ -1,1 +1,4 @@
-  *.py linguist-language=Python
+*.py linguist-language=Python
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+*.txt linguist-language=Text

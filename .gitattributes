@@ -2,3 +2,7 @@
 *.yaml linguist-language=YAML
 *.yml linguist-language=YAML
 *.txt linguist-language=Text
+
+docs/* linguist-documentation
+vendor/* linguist-vendored
+*.generated.* linguist-generated

@@ -1,4 +1,5 @@
-*.py linguist-language=python
+
 * linguist-vendored
+*.py linguist-language=python
 *.HTML linguist-vendored=false
 *.Tex linguist-vendored=false

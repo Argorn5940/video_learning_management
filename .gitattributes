@@ -6,3 +6,4 @@
 docs/* linguist-documentation
 vendor/* linguist-vendored
 *.generated.* linguist-generated
+*.md linguist-vendored=true

@@ -3,3 +3,4 @@
 *.py linguist-vendored=true
 *.HTML linguist-vendored=false
 *.Tex linguist-vendored=false
+

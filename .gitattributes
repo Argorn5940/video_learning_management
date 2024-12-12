@@ -1,9 +1,3 @@
-*.py linguist-language=Python
-*.yaml linguist-language=YAML
-*.yml linguist-language=YAML
-*.txt linguist-language=Text
-
-docs/* linguist-documentation
-vendor/* linguist-vendored
-*.generated.* linguist-generated
-*.md linguist-vendored=true
+* linguist-vendored
+*.html linguist-vendored=false
+*.Tex linguist-vendored=false
